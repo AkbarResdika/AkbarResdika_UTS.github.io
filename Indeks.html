@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idola Saya - Monkey D. Luffy</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/images/logo.png" alt="Logo Luffy" class="logo">
+        <h1>Monkey D. Luffy </h1>
+        <button class="burger" onclick="toggleSidebar()">&#9776;</button> <!-- Ikon burger -->
+    </header>
+
+    <div class="anime-background">
+        <div class="container">
+            <aside class="sidebar" id="sidebar">
+                <nav>
+                    <ul>
+                        <li><a href="indeks.html">Beranda</a></li>
+                        <li><a href="form.html">Formulir</a></li>
+                        <li><a href="tabel.html">Tabel</a></li>
+                    </ul>
+                </nav>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/onepiece.fanbase_?igsh=YjNhenE0anJpbGp4" target="_blank"><img src="assets/images/instagram.png" alt="Instagram"></a>
+                    <a href="https://x.com/nakamaopindo" target="_blank"><img src="assets/images/twitter.png" alt="Twitter"></a>
+                    <a href="https://chat.whatsapp.com/BoMXHjT7UQyIVXmr4aDewm" target="_blank"><img src="assets/images/whatsapp.png" alt="WhatsApp"></a>
+                </div>
+            </aside>
+
+            <main class="content">
+                <p>Selamat datang di website resmi penggemar Monkey D. Luffy! Temukan berbagai informasi tentang perjalanan sang Kapten Bajak Laut Topi Jerami dalam menggapai mimpinya menjadi Raja Bajak Laut.</p>
+            </main>
+        </div>
+    </div>  
+    <footer>
+        <p>&copy; 2024 Idola Saya - Semua tentang Monkey D. Luffy</p>
+    </footer>
+
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("sidebar");
+            sidebar.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
